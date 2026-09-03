@@ -31,3 +31,6 @@ Thumbs.db
 # 临时文件
 *.tmp
 *.log
+
+# WorkBuddy 工作区内部数据(记忆/会话)
+.workbuddy/
