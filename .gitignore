@@ -33,4 +33,7 @@ Thumbs.db
 *.log
 
 # WorkBuddy 工作区内部数据(记忆/会话)
-.workbuddy/
+# 注意: .workbuddy/skills/ 需纳入版本管理(项目级 Skill 要共享),故单独放行
+.workbuddy/*
+!.workbuddy/skills/
+!.workbuddy/skills/**
