@@ -1,0 +1,30 @@
+# 大数据与人工智能 课程环境依赖
+# 重建环境：.venv/Scripts/python.exe -m pip install -r requirements.txt
+#
+# 注意：pandas 固定在 2.x
+# Windows 11 的「智能应用控制」会拦截 pandas 3.x 的编译扩展 lib.cp312-win_amd64.pyd
+# （报 WinError 4551 应用程序控制策略已阻止此文件），2.x 版本不受影响。详见 notes/Python环境搭建.md
+
+# --- 数值与数据分析 ---
+numpy==2.5.3
+pandas==2.3.3
+scipy==1.18.1
+
+# --- 可视化 ---
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# --- 机器学习 ---
+scikit-learn==1.9.1
+
+# --- 文件读写 ---
+openpyxl==3.1.5
+requests==2.34.2
+
+# --- 交互式编程 ---
+jupyterlab==4.6.4
+ipykernel==7.3.0
+ipywidgets==8.1.9
+
+# --- 工具 ---
+tqdm==4.70.1
